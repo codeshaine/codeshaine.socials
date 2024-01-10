@@ -10,25 +10,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Roboto:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;1400;700;900&family=Roboto:wght@700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body class="bg-black">
-    <div id="wrapper" class="flex justify-center p-10 mb-20">
+    <div id="wrapper" class="flex justify-center px-6 py-10 lg:mb-20 mb-10">
       <div
         id="container"
-        class="w-3/4 grid h-screen grid-cols-4 grid-rows-3 gap-4"
+        class="md:w-4/5 lg:w-3/4 grid lg:h-screen md:h-screen grid-cols-3 grid-rows-5 gap-3 md:grid-cols-3 md:grid-rows-5 lg:grid-rows-3 lg:grid-cols-4 md:gap-4 lg:gap-4"
       >
-        <div id="profile" class="col-span-3 row-span-2 rounded-3xl h-full">
+        <div
+          id="profile"
+          class="col-span-3 row-span-3 rounded-3xl h-full md:col-span-3 md:row-span-2 lg:col-span-3 lg:row-span-2"
+        >
           <div
-            class="p-8 bg-[#af72ff56] w-full h-full flex flex-col justify-end rounded-3xl"
+            class="p-4 md:p-8 lg:p-8 bg-[#af72ff56] w-full h-full flex flex-col lg:justify-end md:justify-center rounded-3xl"
           >
-            <img src="./image/pic.jpg" alt="" / class="w-32 rounded-full">
-            <h1 class="text-5xl font-roboto text-white mt-4 tracking-wide">
+            <img
+              src="./image/pic.jpg"
+              alt=""
+              class="w-32 md:w-32 lg:w-32 rounded-full mt-7"
+            />
+            <h1
+              class="text-4xl lg:text-5xl md:text-5xl font-roboto text-white mt-5 tracking-wide font-bold"
+            >
               Hi, I'm Shainil P.S.
             </h1>
-            <p class="font-montserrat font-bold text-xl text-white mt-4">
+            <p
+              class="font-montserrat text-lg font-bold md:text-xl lg:text-xl mt-2 text-[#c9d6db] lg:mt-4 md:mt-4"
+            >
               Backend Developer✨ Student
             </p>
           </div>
@@ -39,11 +50,12 @@
           class="bg-[#03045e] rounded-3xl relative flex justify-center items-center hover:scale-105 transition-transform duration-500 ease-in-out"
         >
           <svg
+            id="link-icon"
             stroke="currentColor"
             fill="currentColor"
             stroke-width="0"
             viewBox="0 0 24 24"
-            class="absolute right-4 bottom- top-auto md:right-8 md:top-8 text-2xl text-[#ffffffaa] z-auto"
+            class="absolute top-3 right-3 md:right-8 md:top-8 lg:right-8 lg:top-8 text-2xl text-[#ffffffaa] z-auto"
             height="1em"
             width="1em"
             xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +65,13 @@
               d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
             ></path>
           </svg>
-          <svg width="140" height="140" viewBox="0 0 337 337" fill="none">
+          <svg
+            id="hashnode-icon"
+            width="140"
+            height="140"
+            viewBox="0 0 337 337"
+            fill="none"
+          >
             <rect
               x="113"
               y="113"
@@ -76,11 +94,12 @@
           class="bg-[#212529] rounded-3xl relative flex justify-center items-center hover:scale-105 transition-transform duration-500 ease-in-out"
         >
           <svg
+            id="link-icon"
             stroke="currentColor"
             fill="currentColor"
             stroke-width="0"
             viewBox="0 0 24 24"
-            class="absolute right-4 bottom- top-auto md:right-8 md:top-8 text-2xl text-[#ffffffaa] z-auto"
+            class="absolute top-3 right-3 md:right-8 md:top-8 lg:right-8 lg:top-8 text-2xl text-[#ffffffaa] z-auto"
             height="1em"
             width="1em"
             xmlns="http://www.w3.org/2000/svg"
@@ -115,11 +134,12 @@
           class="bg-blue-900 rounded-3xl relative flex justify-center items-center hover:scale-105 transition-transform duration-500 ease-in-out"
         >
           <svg
+            id="link-icon"
             stroke="currentColor"
             fill="currentColor"
             stroke-width="0"
             viewBox="0 0 24 24"
-            class="absolute right-4 bottom- top-auto md:right-8 md:top-8 text-2xl text-[#ffffffaa] z-auto"
+            class="absolute top-3 right-3 md:right-8 md:top-8 lg:right-8 lg:top-8 text-2xl text-[#ffffffaa] z-auto"
             height="1em"
             width="1em"
             xmlns="http://www.w3.org/2000/svg"
@@ -150,11 +170,12 @@
           class="bg-red-800 rounded-3xl relative flex justify-center items-center hover:scale-105 transition-transform duration-500 ease-in-out"
         >
           <svg
+            id="link-icon"
             stroke="currentColor"
             fill="currentColor"
             stroke-width="0"
             viewBox="0 0 24 24"
-            class="absolute right-4 bottom- top-auto md:right-8 md:top-8 text-2xl text-[#ffffffaa] z-auto"
+            class="absolute top-3 right-3 md:right-8 md:top-8 lg:right-8 lg:top-8 text-2xl text-[#ffffffaa] z-auto"
             height="1em"
             width="1em"
             xmlns="http://www.w3.org/2000/svg"
@@ -189,11 +210,12 @@
           "
         >
           <svg
+            id="link-icon"
             stroke="currentColor"
             fill="currentColor"
             stroke-width="0"
             viewBox="0 0 24 24"
-            class="absolute right-4 bottom- top-auto md:right-8 md:top-8 text-2xl text-[#ffffffaa] z-auto"
+            class="absolute right-3 top-3 md:right-8 md:top-8 lg:right-8 lg:top-8 text-2xl text-[#ffffffaa] z-auto"
             height="1em"
             width="1em"
             xmlns="http://www.w3.org/2000/svg"
@@ -205,24 +227,36 @@
           </svg>
 
           <svg
+            id="github-icon"
+            width="70"
+            height="68"
+            stroke="currentColor"
+            fill="currentColor"
+            stroke-width="0"
+            role="img"
+            viewBox="0 0 24 24"
+            color="white"
+            class="absolute top-3 left-3 md:top-6 md:left-6 lg:top-8 lg:left-8"
+            height="1em"
+            width="1em"
             xmlns="http://www.w3.org/2000/svg"
-            width="98"
-            height="96"
-            class="absolute top-4 left-4"
+            style="color: white"
             opacity="0.5"
           >
+            <title></title>
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"
-              fill="#fff"
-            />
+              d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+            ></path>
           </svg>
-          <div class="mb-4 ml-4">
-            <h1 class="text-white text-3xl font-bold font-roboto tracking-wide">
+          <div
+            class="mb-2 ml-2 md:mb-10 md:ml-6 lg:mb-10 lg:ml-6 overflow-hidden"
+          >
+            <h1
+              class="text-white text-xl lg:text-3xl md:text-2xl font-bold font-roboto tracking-wide"
+            >
               Github
             </h1>
-            <p class="font-montserrat text-xl text-white">
+            <p class="font-montserrat lg:text-xl text-xs md:text-lg text-white">
               My projects are available here
             </p>
           </div>
@@ -231,7 +265,7 @@
     </div>
     <hr class="border border-white" />
     <div class="flex justify-center my-2">
-      <p class="text-white font-montserrat">
+      <p class="text-white font-montserrat text-xs">
         Code by me and Design by <a href="https://enjae.netlify.app/">Enjae</a>
       </p>
     </div>
